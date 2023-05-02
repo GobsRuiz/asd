@@ -1,0 +1,83 @@
+.footer{
+    background-color: #d9d9d9;
+    padding: 40px 0 40px 0;
+
+    @include d(md){
+        padding-bottom: 60px;
+    }
+
+    &__logosecovi{
+        width: 100% ;
+        max-width: 420px;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    &__title{
+        font-family: 'Gotham medium';
+        color: #000;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 27px;
+        letter-spacing: 0.25em;
+        margin-bottom: 8px;
+    }
+
+    &__tagColors{
+        margin-bottom: 40px;
+    }
+
+    &__socialNetwork{
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 17px;
+
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        img{
+            max-width: 20px;
+            margin-right: 20px;
+            margin-top: 5px;
+        }
+
+        p{
+            font-family: 'Gotham medium';
+            color: #000;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 22px;
+            margin-bottom: 0;
+        }
+    }
+
+    &__otherSocialNetworks{
+        margin-top: 140px;
+
+        a{
+            margin-right: 35px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
+        @include d(md){
+            margin-top: 40px;
+        }
+
+        @media(max-width: 360px){
+            display: flex;
+            justify-content: space-between;
+
+            a{
+                margin-right: 0;
+
+                img{
+                    max-width: 45px;
+                }
+            }
+        }
+    }
+}

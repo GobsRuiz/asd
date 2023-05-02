@@ -1,0 +1,135 @@
+.practices{
+    display: flex;
+    padding: 110px 0;
+
+    @include d(md){
+        display: block;
+        padding: 0;
+    }
+
+    .container{
+        padding-top: 110px;
+        padding-bottom: 110px;
+        
+        @include d(md){
+            padding-top: 40px;
+            padding-bottom: 110px;
+        }
+    }
+
+    &__accordion{
+        margin-top: 25px;
+
+        &:first-child{
+            margin-top: 0;
+        }
+
+        @include d(md){
+            margin-top: 27px;
+        }
+
+        .card{
+            border: 0;
+            background-color: transparent;
+
+            .card-header{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: transparent;
+                border: 0;
+                padding: 0;
+
+                &[aria-expanded="true"]{
+                    .card-header-arrow{
+                        background-color: $black !important;
+
+                        img{
+                            transform: rotate(-180deg);
+                        }
+                    }
+                }
+
+                button{
+                    color: $black;
+                    font-size: 40px;
+                    font-weight: 900;
+                    letter-spacing: 5px;
+                    padding: 0;
+                    
+                    @include d(md){
+                        font-size: 30px;
+                    }
+                }
+            
+                .card-header-arrow{
+                    max-width: 40px;
+                    min-width: 40px;
+                    min-height: 40px;
+                    max-height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fff;
+                    border: 2px solid #1C1B1B;
+                    box-sizing: border-box;
+                    margin-left: 15px;
+
+                    img{
+                        width: 23px;
+                        display: block;
+                        transition: .3s;
+                    }
+                }
+            }
+
+            .card-body{
+                padding: 30px 0 5px 0;
+            }
+        }
+
+        &__collapse{
+            p{
+                color: #1C1B1B;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 19px;
+                margin-bottom: 20px;
+
+                &:last-child{
+                    margin-bottom: 0;
+                }
+
+                a{
+                    color: #0060AE;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        &__separator{
+            margin-top: 30px;
+        }
+    }
+
+    .nv-btn{
+        margin-top: 70px;
+
+        @include d(md){
+            margin-top: 50px;
+        }
+    }
+
+    &__bg{
+        @include d(md){
+            height: 300px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+}

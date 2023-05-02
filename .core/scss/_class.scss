@@ -1,0 +1,82 @@
+.nv-title{
+    
+    h1{
+        font-family: "Gotham black";
+        color: $black;
+        font-size: 40px;
+        font-weight: 900;
+
+        // letter-spacing: 5px;
+        letter-spacing: 0.25em;
+
+        margin-bottom: 15px;
+        
+        @include d(md){
+            font-size: 30px;
+            // line-height: 33px;
+            
+            margin-bottom: 10px;
+        }
+    }
+
+    img{
+        display: block;
+    }
+
+}
+
+
+.nv-text{
+    font-family: "Gotham medium";
+    color: $black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.nv-btn{
+    max-width: max-content;
+    display: flex;
+    align-items: center;
+    border: 3px solid $black;
+    border-radius: 40px;    
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 13px 30px 15px 30px;    
+    
+    font-family: "Gotham medium";
+    color: $black;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1;
+
+    img{
+        max-width: 20px;
+        margin-right: 20px;
+        position: relative;
+        top: 2px;
+    }
+
+    &--bgBlack{
+        color: #fff !important;
+        background-color: $black;
+    }
+
+    &--bgWhite{
+        color: $black;
+        background-color: #fff;
+    }
+    
+    &:hover{
+        .nv-btn--bgBlack{
+            color: $black !important;
+            background-color: #fff !important;
+        }
+
+        .nv-btn--bgWhite{
+            color: #fff !important;
+            background-color: $black !important;
+        }
+    }
+}

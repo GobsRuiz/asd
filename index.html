@@ -26,12 +26,966 @@
     <link rel="preload" as="style" href="assets/css/style.css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
     <link rel="shortcut icon" href="#" />
     <link rel="icon" type="image/gif" href="" />
 
     <title>Cantacom template</title>
   </head>
   <body>
+    <header id="header" class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-center justify-content-between">
+          <a class="navbar-brand" href="#header">
+            <img src="/assets/images/logo-secovi-sp.png" alt="">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#event">Evento <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#speakers">Palestrantes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#practices">Programação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#howGet">Patrocinadores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">Fale com a gente</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#realization">Notícias</a>
+              </li>
+
+              <li class="nav-item nav-button">
+                <a class="nav-link nv-btn nv-btn--bgBlack" href="#" target="_blank">INGRESSOS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="kv">
+        <div class="container">
+          <img class="kv__logo" src="/assets/images/logo-enacon.png" alt="">
+
+          <p class="kv__text">
+            JORNADA PARA O AMANHÃ
+          </p>
+
+          <div class="kv__date text-center">
+            <p class="kv__datanumber">
+              28, 29 e 30
+            </p>
+            <p class="kv__datefinal">
+              JUN / 2023
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="event" class="event">
+        <div class="event__bg">
+          <img src="/assets/images/event/img.png" alt="">
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col col-12 col-lg-11">
+              <div class="event__content">
+                <div class="nv-title">
+                  <h1>
+                    O EVENTO
+                  </h1>
+      
+                  <img src="/assets/images/tag colors.svg" alt="">
+                </div>
+
+                <p class="event__text nv-text">
+                  A administração de imóveis e condomínios não para de evoluir. E esse processo exige atualização, planejamento, conexão, atitude e visão de futuro.
+                </p>
+                <p class="event__text nv-text">
+                  Preparar quem atua no setor é o propósito do 19º Encontro Nacional das Administradoras de Imóveis e Condomínios do Secovi-SP, o Enacon.
+                </p>
+                <p class="event__text nv-text">Destinado a empresários, gestores e profissionais da área, o evento conta com novidades para o setor. Prepare-se para uma verdadeira jornada para o amanhã!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="speakers" class="speakers">
+        <div class="container">
+          <div class="nv-title">
+            <h1 class="text-white">
+              PALESTRANTES
+            </h1>
+  
+            <img src="/assets/images/tag colors.svg" alt="">
+          </div>
+
+          <p class="speakers__text nv-text text-white">
+            Mais de 40 experts nas áreas de gestão, marketing, marca, tecnologia, inteligência de dados, ferramentas digitais, relacionamento com clientes e legislação para trazer informações, orientações e dicas para uma performance de sucesso. 
+          </p>
+
+          <div class="speakers__cards">
+            <div class="speakers__cards__card speakers__cards__card--orange">
+              <img class="speakers__cards__card__img" src="/assets/images/speakers/Rita von Hunty - FOTO 1.png" alt="">
+              
+              <div class="speakers__cards__card__divText">
+                <h3 class="speakers__cards__card__divText__title">
+                  Rita
+                </h3>
+
+                <p class="speakers__cards__card__divText__text mb-0">
+                  Rita von Hunty é a persona drag do ator e professor Guilherme Terreri. Com formação em Artes Cênicas pela UNIRIO e Língua e Literatura Inglesa pela USP, Rita conduz – através dos Estudos de Cultura- discussões com seu público sobre temas sociais com horizonte emancipatório radical. Rita tem atuado no cinema, no teatro, na TV e no Youtube com o canal Tempero Drag além de seus trabalhos como colunista na Carta Capital e vídeo colunista em uma série de outros meios. 
+                </p>
+              </div>
+            </div>
+
+            <div class="speakers__cards__card">
+              <img class="speakers__cards__card__img" src="/assets/images/speakers/Rita von Hunty - FOTO 1.png" alt="">
+              
+              <div class="speakers__cards__card__divText">
+                <h3 class="speakers__cards__card__divText__title">
+                  Rita
+                </h3>
+
+                <p class="speakers__cards__card__divText__text mb-0">
+                  Rita von Hunty é a persona drag do ator e professor Guilherme Terreri. Com formação em Artes Cênicas pela UNIRIO e Língua e Literatura Inglesa pela USP, Rita conduz – através dos Estudos de Cultura- discussões com seu público sobre temas sociais com horizonte emancipatório radical. Rita tem atuado no cinema, no teatro, na TV e no Youtube com o canal Tempero Drag além de seus trabalhos como colunista na Carta Capital e vídeo colunista em uma série de outros meios. 
+                </p>
+              </div>
+            </div>
+
+            <div class="speakers__cards__card">
+              <img class="speakers__cards__card__img" src="/assets/images/speakers/Rita von Hunty - FOTO 1.png" alt="">
+              
+              <div class="speakers__cards__card__divText">
+                <h3 class="speakers__cards__card__divText__title">
+                  Rita
+                </h3>
+
+                <p class="speakers__cards__card__divText__text mb-0">
+                  Rita von Hunty é a persona drag do ator e professor Guilherme Terreri. Com formação em Artes Cênicas pela UNIRIO e Língua e Literatura Inglesa pela USP, Rita conduz – através dos Estudos de Cultura- discussões com seu público sobre temas sociais com horizonte emancipatório radical. Rita tem atuado no cinema, no teatro, na TV e no Youtube com o canal Tempero Drag além de seus trabalhos como colunista na Carta Capital e vídeo colunista em uma série de outros meios. 
+                </p>
+              </div>
+            </div>
+
+            <div class="speakers__cards__card">
+              <img class="speakers__cards__card__img" src="/assets/images/speakers/Rita von Hunty - FOTO 1.png" alt="">
+              
+              <div class="speakers__cards__card__divText">
+                <h3 class="speakers__cards__card__divText__title">
+                  Rita
+                </h3>
+
+                <p class="speakers__cards__card__divText__text mb-0">
+                  Rita von Hunty é a persona drag do ator e professor Guilherme Terreri. Com formação em Artes Cênicas pela UNIRIO e Língua e Literatura Inglesa pela USP, Rita conduz – através dos Estudos de Cultura- discussões com seu público sobre temas sociais com horizonte emancipatório radical. Rita tem atuado no cinema, no teatro, na TV e no Youtube com o canal Tempero Drag além de seus trabalhos como colunista na Carta Capital e vídeo colunista em uma série de outros meios. 
+                </p>
+              </div>
+            </div>
+
+            <div class="speakers__cards__card">
+              <img class="speakers__cards__card__img" src="/assets/images/speakers/Rita von Hunty - FOTO 1.png" alt="">
+              
+              <div class="speakers__cards__card__divText">
+                <h3 class="speakers__cards__card__divText__title">
+                  Rita
+                </h3>
+
+                <p class="speakers__cards__card__divText__text mb-0">
+                  Rita von Hunty é a persona drag do ator e professor Guilherme Terreri. Com formação em Artes Cênicas pela UNIRIO e Língua e Literatura Inglesa pela USP, Rita conduz – através dos Estudos de Cultura- discussões com seu público sobre temas sociais com horizonte emancipatório radical. Rita tem atuado no cinema, no teatro, na TV e no Youtube com o canal Tempero Drag além de seus trabalhos como colunista na Carta Capital e vídeo colunista em uma série de outros meios. 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <a href="" target="_blank" class="nv-btn nv-btn--bgWhite mx-auto">
+            CONFERIR PROGRAMAÇÃO
+          </a>
+        </div>
+      </section>
+
+      <section id="practices" class="practices">
+        <div class="container">
+          <div class="row">
+            <div class="col col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-3">
+              <div class="practices__content">
+                <div class="practices__accordion accordion" id="practicesAccordionOne">
+                  <div class="card">
+                    <div class="card-header" id="practicesHeadingOne" data-toggle="collapse" data-target="#practicesCollapseOne" aria-expanded="true" aria-controls="practicesCollapseOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button">
+                          PRÁTICAS
+                        </button>
+                      </h2>
+      
+                      <div class="card-header-arrow">
+                        <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                      </div>
+                    </div>
+                
+                    <div id="practicesCollapseOne" class="practices__accordion__collapse collapse show" aria-labelledby="practicesHeadingOne" data-parent="#practicesAccordionOne">
+                      <div class="card-body">
+                        <p class="nv-text">
+                          Enacon Experience – Visita técnica com foco em gestão e em operação de condomínios, com informações e inspirações a pequenos grupos
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <img src="/assets/images/tag colors.svg" class="practices__accordion__separator" alt="">
+                </div>
+
+                <div class="practices__accordion accordion" id="practicesAccordionTwo">
+                  <div class="card">
+                    <div class="card-header" id="practicesHeadingTwo" data-toggle="collapse" data-target="#practicesCollapseTwo" aria-expanded="false" aria-controls="practicesCollapseTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button">
+                          CONHECIMENTO
+                        </button>
+                      </h2>
+      
+                      <div class="card-header-arrow">
+                        <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                      </div>
+                    </div>
+                
+                    <div id="practicesCollapseTwo" class="practices__accordion__collapse collapse" aria-labelledby="practicesHeadingTwo" data-parent="#practicesAccordionTwo">
+                      <div class="card-body">
+                        <p class="nv-text">
+                          Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <img src="/assets/images/tag colors.svg" class="practices__accordion__separator" alt="">
+                </div>
+
+                <div class="practices__accordion accordion" id="practicesAccordionThree">
+                  <div class="card">
+                    <div class="card-header" id="practicesHeadingThree" data-toggle="collapse" data-target="#practicesCollapseThree" aria-expanded="false" aria-controls="practicesCollapseThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button">
+                          SOLUÇÕES
+                        </button>
+                      </h2>
+      
+                      <div class="card-header-arrow">
+                        <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                      </div>
+                    </div>
+                
+                    <div id="practicesCollapseThree" class="practices__accordion__collapse collapse" aria-labelledby="practicesHeadingThree" data-parent="#practicesAccordionThree">
+                      <div class="card-body">
+                        <p class="nv-text">
+                          Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <img src="/assets/images/tag colors.svg" class="practices__accordion__separator" alt="">
+                </div>
+
+                <a href="" target="_blank" class="nv-btn nv-btn--bgBlack mx-auto mx-lg-0">
+                  QUERO MEU INGRESSO
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="practices__bg">
+          <img src="/assets/images/practices/img.png" alt="">
+        </div>
+      </section>
+
+      <section id="tickets" class="tickets">
+        <div class="container">
+          <div class="nv-title text-center">
+            <h1 class="text-white">
+              INGRESSOS
+            </h1>
+  
+            <img class="mx-auto" src="/assets/images/tag colors.svg" alt="">
+          </div>
+
+          <div class="tickets__cards">
+            <div class="tickets__cards__card">
+              <div class="tickets__cards__card__top">
+                <h3>
+                  EXPERIENCE
+                </h3>
+              </div>
+
+              <div class="tickets__cards__card__cut">
+                <div class="tickets__cards__card__cut__big tickets__cards__card__cut__big--left"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__big tickets__cards__card__cut__big--right"></div>
+              </div>
+
+              <div class="tickets__cards__card__bt">
+                <ul class="tickets__cards__card__bt__list">
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+                </ul>
+
+                <button class="tickets__cards__card__bt__showMore">
+                  <span>Ver mais</span>
+                  <img src="/assets/images/icons/arrow.svg" alt="">
+                </button>
+
+                <a href="" class="nv-btn nv-btn--bgBlack">
+                  QUERO MEU INGRESSO
+                </a>
+              </div>
+            </div>
+
+            <div class="tickets__cards__card">
+              <div class="tickets__cards__card__top">
+                <h3>
+                  EXPERIENCE
+                </h3>
+              </div>
+
+              <div class="tickets__cards__card__cut">
+                <div class="tickets__cards__card__cut__big tickets__cards__card__cut__big--left"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__big tickets__cards__card__cut__big--right"></div>
+              </div>
+
+              <div class="tickets__cards__card__bt">
+                <ul class="tickets__cards__card__bt__list">
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+                </ul>
+
+                <button class="tickets__cards__card__bt__showMore">
+                  <span>Ver mais</span>
+                  <img src="/assets/images/icons/arrow.svg" alt="">
+                </button>
+
+                <a href="" class="nv-btn nv-btn--bgBlack">
+                  QUERO MEU INGRESSO
+                </a>
+              </div>
+            </div>
+
+            <div class="tickets__cards__card">
+              <div class="tickets__cards__card__top">
+                <h3>
+                  EXPERIENCE
+                </h3>
+              </div>
+
+              <div class="tickets__cards__card__cut">
+                <div class="tickets__cards__card__cut__big tickets__cards__card__cut__big--left"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__small"></div>
+                <div class="tickets__cards__card__cut__big tickets__cards__card__cut__big--right"></div>
+              </div>
+
+              <div class="tickets__cards__card__bt">
+                <ul class="tickets__cards__card__bt__list">
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+
+                  <li>
+                    <img src="/assets/images/icons/correct.svg" alt="">
+                    
+                    <span>
+                      Acomodação especial no auditório
+                    </span>
+                  </li>
+                </ul>
+
+                <button class="tickets__cards__card__bt__showMore">
+                  <span>Ver mais</span>
+                  <img src="/assets/images/icons/arrow.svg" alt="">
+                </button>
+
+                <a href="" class="nv-btn nv-btn--bgBlack">
+                  QUERO MEU INGRESSO
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="howGet" class="howGet">
+        <div class="container">
+          <div class="row">
+            <div class="col col-12 col-lg-8 offset-lg-1 offset-xl-3">
+              <div class="howGet__content">
+                <div class="nv-title">
+                  <h1>
+                    COMO CHEGAR
+                  </h1>
+      
+                  <img src="/assets/images/tag colors.svg" alt="">
+                </div>
+  
+                <p class="howGet__text">
+                  Com infraestrutura moderna e funcional, o Milenium Centro de Convenções está localizado entre os bairros de Vila Mariana e Moema. Próximo ao Aeroporto de Congonhas, possui fácil acesso e está rodeado por uma ampla rede de hotéis.
+                </p>
+  
+                <p class="howGet__text">
+                  Com salas modulares, auditórios, áreas externas e foyers, atende com eficiência, sofisticação e qualidade desde reuniões de negócios até grandes convenções, confraternizações, treinamentos ou seminários.
+                </p>
+  
+                <p class="howGet__text">
+                  Conta com segurança monitorada 24 horas, moderna infraestrutura e estacionamento coberto no próprio edifício e manobristas.
+                </p>
+  
+                <div class="howGet__local">
+                  <p class="mb-3">
+                    <strong>Local do Evento:</strong>
+                  </p>
+  
+                  <p class="howGet__local__bigText mb-1">
+                    <strong>
+                      Millenium Centro de Convenções, 1043
+                    </strong>
+                  </p>
+                  <p>
+                    Rua Doutor Bacelar, 1043 Vila Clementino
+                  </p>
+                  <p>
+                    São Paulo, SP
+                  </p>
+  
+                  <a href="" target="_blank" class="nv-btn">
+                    <img src="/assets/images/icons/loc.svg" alt="">
+                    <span>VER NO MAPA</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="howGet__bg">
+          <img src="/assets/images/howget/img.png" alt="">
+        </div>
+      </section>
+
+      <section id="faq" class="faq">
+        <div class="container">
+          <div class="nv-title text-center">
+            <h1 class="text-white">
+              FAQ
+            </h1>
+
+            <img src="/assets/images/tag colors.svg" class="mx-auto" alt="">
+          </div>
+
+          <div class="faq__accordion accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button">
+                    Onde será realizado?
+                  </button>
+                </h2>
+
+                <div class="card-header-arrow">
+                  <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                </div>
+              </div>
+          
+              <div id="collapseOne" class="faq__accordion__collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                  </p>
+                  <p>
+                    Confira o nosso espaço no link a seguir. <a href="https://espacomilenium.com.br/" target="_blank">https://espacomilenium.com.br/</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__accordion accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button">
+                    Onde será realizado?
+                  </button>
+                </h2>
+
+                <div class="card-header-arrow">
+                  <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                </div>
+              </div>
+          
+              <div id="collapseOne" class="faq__accordion__collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                  </p>
+                  <p>
+                    Confira o nosso espaço no link a seguir. <a href="https://espacomilenium.com.br/" target="_blank">https://espacomilenium.com.br/</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__accordion accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button">
+                    Onde será realizado?
+                  </button>
+                </h2>
+
+                <div class="card-header-arrow">
+                  <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                </div>
+              </div>
+          
+              <div id="collapseOne" class="faq__accordion__collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                  </p>
+                  <p>
+                    Confira o nosso espaço no link a seguir. <a href="https://espacomilenium.com.br/" target="_blank">https://espacomilenium.com.br/</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__accordion accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button">
+                    Onde será realizado?
+                  </button>
+                </h2>
+
+                <div class="card-header-arrow">
+                  <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                </div>
+              </div>
+          
+              <div id="collapseOne" class="faq__accordion__collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                  </p>
+                  <p>
+                    Confira o nosso espaço no link a seguir. <a href="https://espacomilenium.com.br/" target="_blank">https://espacomilenium.com.br/</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__accordion accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button">
+                    Onde será realizado?
+                  </button>
+                </h2>
+
+                <div class="card-header-arrow">
+                  <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                </div>
+              </div>
+          
+              <div id="collapseOne" class="faq__accordion__collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                  </p>
+                  <p>
+                    Confira o nosso espaço no link a seguir. <a href="https://espacomilenium.com.br/" target="_blank">https://espacomilenium.com.br/</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__accordion accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button">
+                    Onde será realizado?
+                  </button>
+                </h2>
+
+                <div class="card-header-arrow">
+                  <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                </div>
+              </div>
+          
+              <div id="collapseOne" class="faq__accordion__collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                  </p>
+                  <p>
+                    Confira o nosso espaço no link a seguir. <a href="https://espacomilenium.com.br/" target="_blank">https://espacomilenium.com.br/</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__accordion accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button">
+                    Onde será realizado?
+                  </button>
+                </h2>
+
+                <div class="card-header-arrow">
+                  <img src="/assets/images/icons/arrow.svg" alt="Arrow">
+                </div>
+              </div>
+          
+              <div id="collapseOne" class="faq__accordion__collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Milenium Centro de Convenções - Rua Dr. Bacelar, 1.043 - Vila Mariana/SP
+                  </p>
+                  <p>
+                    Confira o nosso espaço no link a seguir. <a href="https://espacomilenium.com.br/" target="_blank">https://espacomilenium.com.br/</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="realization" class="realization">
+        <div class="container">
+          <div class="nv-title">
+            <h1>
+              REALIZAÇÃO
+            </h1>
+
+            <img src="/assets/images/tag colors.svg" alt="">
+          </div>
+
+          <div class="row align justify-content-between">
+            <div class="col col-12 col-lg-7">
+              <p class="realization__description nv-text mb-0">
+                O Secovi-SP é o maior sindicato do setor imobiliário da América Latina, representando mais de 93 mil empresas no Estado de São Paulo. Faz história desde 1946, está presente nos principais centros econômicos do Estado e é parceiro de importantes entidades imobiliárias do País e do Exterior. 
+              </p>
+            </div>
+  
+            <div class="col col-12 col-lg-auto">
+              <img class="realization__logoSecovi" src="/assets/images/logo-secovi-sp.png" alt="Logo Secovi SP">
+            </div>
+          </div>
+
+          <div class="realization__title2 nv-title">
+            <h1>
+              PATROCINADORES
+            </h1>
+  
+            <img src="/assets/images/tag colors.svg" alt="">
+          </h1>
+  
+          <div class="realization__sponsors row justify-content-between align-items-end">
+            <div class="col col-12 col-lg-6 col-xl-2">
+              <div class="realization__sponsors__sponsor">
+                <p class="realization__sponsors__sponsor__text">
+                  EXCLUSIVE
+                </p>
+  
+                <div class="realization__sponsors__sponsor__imgs">
+                  <img src="/assets/images/logo-atlas-shinder.png" alt="Atlas Schindler">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col col-12 col-lg-6 col-xl-2">
+              <div class="realization__sponsors__sponsor">
+                <p class="realization__sponsors__sponsor__text">
+                  DIAMANTE
+                </p>
+    
+                <div class="realization__sponsors__sponsor__imgs">
+                  <img src="/assets/images/logo-souza-lima.png" alt="Grupo SOUZA LIMA">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col col-12 col-xl-6">
+              <div class="realization__sponsors__sponsor">
+                <p class="realization__sponsors__sponsor__text">
+                  PRATA
+                </p>
+  
+                <div class="realization__sponsors__sponsor__imgs">
+                  <img src="/assets/images/airbnb.png" alt="AIRBNB">
+                  <img src="/assets/images/empresta.png" alt="EMPRESTA CAPITAÇ">
+                  <img src="/assets/images/logo-group-software.png" alt="Group SOFTWARE">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="realization__sponsors row justify-content-center align-items-end">
+            <div class="col col-12 col-lg-7 col-xl-7">
+              <div class="realization__sponsors__sponsor">
+                <p class="realization__sponsors__sponsor__text">
+                  APOIO
+                </p>
+    
+                <div class="realization__sponsors__sponsor__imgs">
+                  <img src="/assets/images/condacash.png" alt="Grupo SOUZA LIMA">
+                  <img src="/assets/images/logo-jupiter.png" alt="Grupo SOUZA LIMA">
+                  <img src="/assets/images/logo-zmr.png" alt="Grupo SOUZA LIMA">
+                  <img src="/assets/images/logo-onde-pouso.png" alt="Grupo SOUZA LIMA">
+                </div>
+              </div>
+            </div>
+  
+            <div class="col col-12 col-lg-3 mt-3 mt-lg-0">
+              <div class="realization__sponsors__sponsor">
+                <p class="realization__sponsors__sponsor__text">
+                  MEDIA PARTNER
+                </p>
+  
+                <div class="realization__sponsors__sponsor__imgs">
+                  <img src="/assets/images/logo-sindiconet.png" alt="AIRBNB">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col col-12 col-md-auto">
+            <img class="footer__logosecovi" src="assets/images/logo-secovi-sp.png" alt="Logo Secovi SP">
+          
+            <h3 class="footer__title">
+              CONTATO
+            </h3>
+  
+            <img class="footer__tagColors" src="/assets/images/tag colors.svg" alt="">
+  
+            <div class="footer__socialNetwork">
+              <img src="assets/images/icons/whats.png" alt="WhatsApp">
+              <p>+55 11 5591-1300</p>
+            </div>
+  
+            <div class="footer__socialNetwork">
+              <img src="assets/images/icons/phone.png" alt="WhatsApp">
+              <p>(11) 5591-1300</p>
+            </div>
+  
+            <div class="footer__socialNetwork">
+              <img src="assets/images/icons/email.png" alt="WhatsApp">
+              <p>central@secovi.com.br</p>
+            </div>
+  
+            <div class="footer__socialNetwork">
+              <img src="assets/images/icons/loc.png" alt="WhatsApp">
+              <p>
+                Rua Doutor Bacelar, 1043 Vila<br>
+                Clementino<br>
+                São Paulo, SP
+              </p>
+            </div>
+          </div>
+  
+          <div class="col col-12 col-lg-auto">
+            <div class="footer__otherSocialNetworks">
+              <a href="" target="_blank" class="">
+                <img src="/assets/images/icons/facebook.svg" alt="Facebook">
+              </a>
+              <a href="" target="_blank" class="">
+                <img src="/assets/images/icons/linkedin.svg" alt="Linkedin">
+              </a>
+              <a href="" target="_blank" class="">
+                <img src="/assets/images/icons/insta.svg" alt="Instagram">
+              </a>
+              <a href="" target="_blank" class="">
+                <img src="/assets/images/icons/twitter.svg" alt="Twiiter">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
   </body>

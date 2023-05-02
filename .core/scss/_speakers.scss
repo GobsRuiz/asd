@@ -1,0 +1,132 @@
+.speakers{   
+    background-color: #1C1B1B;
+    padding: 130px 0 90px 0;
+
+    &__text{
+        font-family: "Gotham light";
+        margin: 70px 0;
+
+        @include d(md){
+            margin: 40px 0;
+        }
+    }
+    
+    &__cards{
+        display: flex;
+
+        @include d(md){
+            flex-direction: column;
+        }
+        
+        &__card{
+            flex: 1;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+            transition: flex .3s;
+            transition-delay: .2s;
+            position: relative;
+
+            @include d(md){
+                flex: initial;
+                height: 200px;
+                margin: 0 0 20px 0;
+                transition: height .3s;
+
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            @include d(sm){
+                height: 160px;
+            }
+
+            &:last-child{
+                margin-right: 0;
+            }
+
+            &::after{
+                content: "";
+                width: 100%;
+                height: 100%;
+                background-color: rgba(28, 27, 27, .5);
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: background-color .3s;
+            }
+
+            &__img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &__divText{
+                width: 100%;
+                max-width: 80%;
+                background-color: #fff;
+                border: 3px solid #1C1B1B;
+                box-shadow: 0px 37px 15px rgba(0, 0, 0, 0.01), 0px 21px 13px rgba(0, 0, 0, 0.03), 0px 9px 9px rgba(0, 0, 0, 0.04), 0px 2px 5px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+                transform: scale(0);
+                transform-origin: 50% 50%;
+                opacity: 0;
+                padding: 15px;
+                margin: 0 20px;
+                position: absolute;
+                bottom: 20px;
+                transition: all .5s;
+                
+                &__title{
+                    color: #000;
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+
+                &__text{
+                    color: #1C1B1B;
+                    font-size: 11.5px;
+                    font-weight: 500;
+                    line-height: 12px;
+                    letter-spacing: -0.03em;
+                }
+            }
+
+            &--orange{
+                &::after{
+                    background-color: rgba(242, 111, 33, 0.5);
+                }
+
+                .speakers__cards__card__divText{
+                    border-color: #F9A51A; 
+                }
+            }
+
+            &:hover{
+                flex: 2;
+                transition-delay: 0s;
+                
+                &::after{
+                    background-color: transparent;
+                }
+
+                .speakers__cards__card__divText{
+                    opacity: 1;
+                    transform: scale(1);
+                }
+
+                @include d(md){
+                    flex: initial;
+                    height: 400px;
+                }
+            }
+        }
+    }
+
+    .nv-btn{
+        margin-top: 40px;
+    }
+}

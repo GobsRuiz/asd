@@ -7,19 +7,19 @@
 @import "transitions";
  /*Não remover*/
 
-//@import "type";
-// @import "images";
+// @import "type";
+@import "images";
 // @import "code";
-// @import "grid";
+@import "grid";
 // @import "tables";
 // @import "forms";
-//@import "buttons";
-// @import "dropdown";
+// @import "buttons";
+@import "dropdown";
 // @import "button-group";
 // @import "input-group";
-// @import "custom-forms";
-// @import "nav";
-// @import "navbar";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
 // @import "card";
 // @import "breadcrumb";
 // @import "pagination";
@@ -28,7 +28,7 @@
 // @import "alert";
 // @import "progress";
 // @import "media";
-// @import "list-group";
+@import "list-group";
 // @import "close";
 // @import "toasts";
 //@import "modal";
@@ -36,5 +36,5 @@
 // @import "popover";
 // @import "carousel";
 // @import "spinners";
- //@import "utilities";
+@import "utilities";   
 // @import "print";

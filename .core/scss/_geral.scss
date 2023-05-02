@@ -1,3 +1,37 @@
+@font-face {
+    font-family: "Gotham light";
+    src: url("/assets/font/GothamHTF-Light.otf");
+}
+@font-face {
+    font-family: "Gotham medium";
+    src: url("/assets/font/GothamHTF-Medium.otf");
+}
+@font-face {
+    font-family: "Gotham medium condensed";
+    src: url("/assets/font/GothamHTF-MediumCondensed.otf");
+}
+@font-face {
+    font-family: "Gotham bold";
+    src: url("/assets/font/GothamHTF-Bold.otf");
+}
+@font-face {
+    font-family: "Gotham black";
+    src: url("/assets/font/GothamHTF-Black.otf");
+}
+
+html{
+    font-family: 'Gotham medium';
+}
+
 body {
     background-color: #fff;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+}
+
+ul{
+    list-style: none;
 }

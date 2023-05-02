@@ -1,0 +1,70 @@
+.howGet{
+    display: flex;
+
+    @include d(md){
+        display: block;
+    }
+
+    .container{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        
+        @include d(md){
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .howGet__content{
+            width: 100%;
+        }
+
+        .nv-title{
+            margin-bottom: 40px;
+        }
+
+        .howGet__text{
+            color: #1C1B1B;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 20px;
+            margin-bottom: 40px;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+
+        .howGet__local{
+            p{
+                color: #1C1B1B;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 17.23px;
+                margin-bottom: 0;
+            }
+
+            &__bigText{
+                font-size: 18px;
+                line-height: 20px;
+            }
+
+            .nv-btn{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    &__bg{
+        
+        @include d(md){
+            height: 380px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+}

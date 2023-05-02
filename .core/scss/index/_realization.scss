@@ -1,0 +1,113 @@
+.realization{
+    padding: 70px 0;
+    // padding: 120px 0 142px 0;
+
+    @include d(md){
+        padding: 75px 0;
+    }
+
+    &__description{
+        padding-top: 70px;
+
+        @include d(md){
+            padding-top: 0;
+            margin-top: 35px;
+        }
+    }
+
+    &__logoSecovi{
+        width: 100%;
+        max-width: 440px;
+        display: block;
+        margin-top: -15px;
+
+        @include d(md){
+            margin-top: 30px;
+        }
+    }
+
+    &__title2{
+        text-align: center;
+        margin-top: 110px;
+        margin-bottom: 110px;
+
+        img{
+            margin: 0 auto;
+        }
+    }
+
+    &__sponsors{
+        margin-top: 55px;
+
+        &:last-child{
+            margin-top: 70px;
+        }
+
+        &:nth-last-child(2){
+            @include d(md){
+                .col{
+                    margin-bottom: 100px;
+
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        
+        &__sponsor{
+            &__text{
+                color: #000;
+                font-size: 25px;
+                font-weight: 500;
+                position: relative;
+                margin-bottom: 0;
+
+                &::after{
+                    content: "";
+                    display: block;
+                    width: 100px;
+                    height: 5px;
+                    background-color: red;
+                    margin: 5px auto 0 auto;
+                }
+            }
+
+            &__imgs{
+                width: 100%;
+                max-width: max-content;
+                min-height: 95px;
+                display: flex;
+                align-items: flex-end;
+                box-sizing: border-box;
+                margin: 10px auto 0 auto;
+
+                @include d(md){
+                    flex-direction: column;
+                    min-height: initial;
+                }
+
+                img{
+                    width: 100%;
+                    max-width: 150px;
+                    max-height: 95px;
+                    object-fit: contain;
+                    margin-right: 20px;
+
+                    &:last-child{
+                        margin-right: 0;
+                    }
+
+                    @include d(md){
+                        margin-right: 0;
+                        margin-bottom: 20px;
+
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

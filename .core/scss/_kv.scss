@@ -1,0 +1,93 @@
+.kv{
+    background-image: url("/assets/images/header/bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 190px;
+    padding-bottom: 260px;
+    position: relative;
+
+    @include d(md){
+        padding-top: 130px;
+        padding-bottom: 300px;
+    }
+    
+    &::after{
+        content: "";
+        width: 100%;
+        max-width: 80%;
+        height: 97%;
+        background-image: url("/assets/images/header/people.png");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: contain;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+
+        @include d(md){
+            height: 300px;
+        }
+    }
+
+    .container{
+        position: relative;
+        z-index: 1;
+    }
+
+    &__logo{
+        width: 100%;
+        max-width: 450px;
+    }
+
+    &__text{
+        font-family: "Gotham medium";
+        color: #1C1B1B;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 28px;
+        margin: 70px 0 40px 0;
+
+        @include d(md){
+            font-size: 22px;
+            line-height: 25px;
+            margin: 40px 0 40px 0;
+        }
+    }
+
+    &__date{
+        max-width: max-content;
+        margin-left: 30px;
+        
+        @include d(md){
+            margin-left: 10px;
+        }
+    }
+
+    &__datanumber{
+        font-family: "Gotham black";
+        color: $black;
+        font-weight: 900;
+        font-size: 45px;
+        margin-bottom: -6px;
+
+        @include d(md){
+            font-size: 32px;
+            margin-bottom: 2px;
+        }
+    }
+    
+    &__datefinal{
+        font-family: "Gotham black";
+        color: $red;
+        font-size: 31px;
+        font-weight: 900;
+        line-height: 32px;
+        margin-bottom: 0;
+
+        @include d(md){
+            font-size: 30px;
+        }
+    }
+}
